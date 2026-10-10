@@ -8,7 +8,7 @@
 | 路径 | 内容 |
 |---|---|
 | `literature_database.json` | 顶尖期刊精选库 9,313 条（期刊白名单 A–H × 相关度标注，含摘要/被引/DOI） |
-| `literature_database_all.json` | 全量归档 35,758 条（未筛选原始去重记录，供审计与重刷） |
+| `05_Archive/` | 全量归档 35,758 条按年拆分（`literature_database_all_<YYYY>.json`，供审计与重刷） |
 | `02_BibTeX/` | 全量 + 按年 BibTeX（`PLASMON_` 前缀）与命名清单 naming_manifest |
 | `03_Reports/` | 2016–2026 回顾检索汇总报告、手动下载 Checklist、相关度复核表、期刊排除日志 |
 | `04_Biomedical/` | **等离激元 × 生物医学应用子集（5,526 条）**：子集 JSON/CSV、BibTeX、Checklist、子集报告 |
